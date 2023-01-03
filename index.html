@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 flex justify-center items-center min-h-screen">
+    <div
+        class="
+        flex justify-between max-w-5xl
+        [&>.card]:bg-white [&>.card]:w-[30%] [&>.card]:rounded-lg [&>.card]:shadow-lg [&>.card]:flex [&>.card]:flex-col [&>.card]:overflow-hidden
+        [&>.card>.header>.hero]:h-[175px] [&>.card>.header>.hero]:w-[100%] 
+        [&>.card>.body]:p-4 [&>.card>.body]:flex [&>.card>.body]:flex-col [&>.card>.body]:flex-1
+        [&>.card>.body>.main]:mb-8
+        [&>.card>.body>.main>.tag]:px-3 [&>.card>.body>.main>.tag]:rounded-full [&>.card>.body>.main>.tag]:text-sm [&>.card>.body>.main>.tag]:uppercase [&>.card>.body>.main>.tag]:text-slate-100 
+        [&>.card>.body>.main>.title]:text-lg [&>.card>.body>.main>.title]:font-medium [&>.card>.body>.main>.title]:leading-tight [&>.card>.body>.main>.title]:mt-3
+        [&>.card>.body>.main>.summary]:mt-3 [&>.card>.body>.main>.summary]:text-slate-600 [&>.card>.body>.main>.summary]:text-sm 
+        [&>.card>.body>.author]:mt-auto [&>.card>.body>.author]:flex [&>.card>.body>.author]:items-center [&>.card>.body>.author]:item-end 
+        [&>.card>.body>.author>.avatar]:w-12 [&>.card>.body>.author>.avatar]:h-12 [&>.card>.body>.author>.avatar]:rounded-full 
+        [&>.card>.body>.author>.caption]:ml-3  [&>.card>.body>.author>.caption]:leading-tight 
+        [&>.card>.body>.author>.caption>.title]:font [&>.card>.body>.author>.caption>.moment]:text-sm [&>.card>.body>.author>.caption>.moment]:text-slate-500">
+        <article class="card">
+            <section class="header">
+                <img src="https://i.postimg.cc/NMtvSNjV/jake-blucker-t-Mz-Cr-Bk-M99-Y-unsplash.jpg" class="hero" alt="">
+            </section>
+            <section class="body">
+                <div class="main">
+                    <span class="tag bg-sky-500">Technology</span>
+                    <h1 class="title">Why is the Tesla cybertruck designed the way it is?</h1>
+                    <p class="summary">
+                        An Exploration into the truck's polarising design.
+                    </p>
+                </div>
+
+                <figure class="author">
+                    <img class="avatar" src="https://i.postimg.cc/c12v4Nr2/download-2.jpg" alt="Carrie Brewer" />
+                    <div class="caption">
+                        <h2 class="title">Carrie Brewer</h2>
+                        <p class="moment">2h ago</p>
+                    </div>
+                </figure>
+            </section>
+        </article>
+
+        <article class="card">
+            <section class="header">
+                <img src="https://i.postimg.cc/dDMyMkL4/kyle-hinkson-xy-Xc-GADv-Aw-E-unsplash.jpg" class="hero" alt="">
+            </section>
+            <section class="body">
+                <div class="main">
+                    <span class="tag bg-violet-600">popular</span>
+                    <h1 class="title">How to Keep Going when You Don't Know What's Next</h1>
+                    <p class="summary">
+                        The future can be scary, but there are ways to deal with that fear.
+                    </p>
+
+                </div>
+                <figure class="author">
+                    <img class="avatar"
+                        src="https://i.postimg.cc/1zvzkkkW/studio-shot-young-handsome-african-man-wearing-traditional-clothing-against-white-background-face-yo.jpg"
+                        alt="Jerome Walton" />
+                    <div class="caption">
+                        <h2 class="title">Jerome Walton</h2>
+                        <p class="moment">Yesterday</p>
+                    </div>
+                </figure>
+            </section>
+        </article>
+
+        <article class="card">
+            <section class="header">
+                <img src="https://i.postimg.cc/mrbjtq8B/art-almighty-ci4-CIax-BWg-unsplash.jpg" class="hero" alt="">
+            </section>
+            <section class="body">
+                <div class="main">
+                    <span class="tag bg-pink-600">design</span>
+                    <h1 class="title">10 Rules of Dashboard Design</h1>
+                    <p class="summary">
+                        Dashboard Design Guidelines
+                    </p>
+                </div>
+
+                <figure class="author">
+                    <img class="avatar" src="https://i.postimg.cc/qMKzNZKR/download-3.jpg" alt="Lewis Daniels" />
+                    <div class="caption">
+                        <h2 class="title">Lewis Daniels</h2>
+                        <p class="moment">2h ago</p>
+                    </div>
+                </figure>
+            </section>
+        </article>
+    </div>
+</body>
+
+</html>
